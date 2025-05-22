@@ -31,30 +31,43 @@ h6{
     color: gray;
 }
 
-.badge-default {
-  background-color: #777;
-}
-.badge-primary {
-  background-color: #337ab7;
-  top: -50px;
-}
-
 .bell-icon {
-  position: relative; /* Esto permite posicionar el número de notificaciones */
+  position: relative; 
 }
 
 .notification-count {
   position: absolute;
-  top: -5px; /* Ajusta la posición vertical según tu diseño */
-  right: -5px; /* Ajusta la posición horizontal según tu diseño */
-  background-color: red; /* Color de fondo del número */
-  color: white; /* Color del texto del número */
-  border-radius: 50%; /* Para hacer el número redondo */
-  width: 20px; /* Ajusta el tamaño según tu diseño */
-  height: 20px; /* Ajusta el tamaño según tu diseño */
+  top: -5px; 
+  right: -5px; 
+  background-color: red; 
+  color: white; 
+  border-radius: 50%; 
+  width: 20px; 
+  height: 20px; 
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 12px;
+}
+
+.progreso{
+    margin: 0px 0px 0px 0px;
+    padding: 1% 0%;
+    width: 95%;
+    height: 40px;
+    text-align: right;
+}
+
+.progress-bar {
+	text-align: left;
+	white-space: nowrap;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	cursor: pointer;
+}
+
+.progress-bar > .progress-type {
+	padding-left: 10px;
 }

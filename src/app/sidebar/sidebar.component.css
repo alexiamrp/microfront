@@ -1,7 +1,7 @@
 .left{
 	width: 50px;
 	height: 100%;
-	background: gray;
+	background: #0a5cb8;
     white-space: nowrap; 
     transition: width 0.5s ;
     position: fixed;
@@ -19,11 +19,11 @@
 	height: 60px;
 	line-height: 50px;  
 	padding-left: 18px;
-	background-color: #2f2f2f;
+	background-color: #014ba0;
 }
 
 .left li:hover {
-	background: black; 
+	background: #003366; 
 }
 
 .left:hover {
