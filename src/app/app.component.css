@@ -1,0 +1,14 @@
+.div-izquierda {
+    float: left;
+}
+
+.div-derecha {
+    float: left;
+    margin-left: 3.5%;
+    width: 100%;
+    position: absolute;
+}
+
+.div-form{
+    position: relative;
+}
