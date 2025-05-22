@@ -9,6 +9,14 @@
     margin-top: 50px;
 }
 
+.preguntas{
+    width: 70%;
+    height: fit-content;
+    border: 1px solid black;
+    padding: 1% 2%;
+    margin: 4% auto;
+}
+
 .flex-container {
   display: flex;
 }
@@ -114,4 +122,32 @@
 
 .tab-content{
     margin-left: 25%;
+}
+
+input[type=checkbox]{
+    margin: 10px 25px;
+    line-height: normal;
+}
+
+h5{
+    font-weight: bold;
+}
+
+.etiquetas{
+    margin: 10px auto;
+    font-weight: 600;
+    color: rgb(88, 147, 241);
+}
+
+.links{
+    width: 70%;
+    margin: auto;
+}
+
+.respuesta{
+    width: 90%;
+    height: max-content;
+    border: 1px solid black;
+    padding: 1% 2%;
+    margin: 4% auto;
 }
