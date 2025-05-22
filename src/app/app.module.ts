@@ -9,13 +9,13 @@ import { FormComponent } from './form/form.component';
 
 @NgModule({
   declarations: [
-    NavbarComponent,
-    SidebarComponent,
-    FormComponent
   ],
   imports: [
     CommonModule,
-    MatIconModule
+    MatIconModule,
+    NavbarComponent,
+    SidebarComponent,
+    FormComponent
   ],
   bootstrap: [AppComponent]
 })
