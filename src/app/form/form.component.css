@@ -124,7 +124,7 @@
     margin-left: 25%;
 }
 
-input[type=checkbox]{
+input[type=radio]{
     margin: 10px 25px;
     line-height: normal;
 }
