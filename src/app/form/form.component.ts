@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { ModalComponent } from '../modal/modal.component';
 import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-form',
@@ -9,7 +10,16 @@ import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
   templateUrl: './form.component.html',
   styleUrl: './form.component.css'
 })
+
 export class FormComponent {
+
+  cliente: any ={
+    "nombre": "Jerry Mattedi",
+    "date": "19 Mayo, 2021: 10:10 AM",
+    "folioSAC": "251-661-5362",
+    "folioMV": "12345678",
+    "registrado": "Sí"
+  }
 
   respuestasForm: FormGroup;
   expediente: FormControl;
@@ -21,7 +31,7 @@ export class FormComponent {
   motivo: FormControl;
   observaciones: FormControl;
 
-  constructor(private _MatDialog: MatDialog){
+  constructor(private _MatDialog: MatDialog,private http: HttpClient){
     this.expediente = new FormControl('');
     this.digitalizacion = new FormControl('');
     this.datos = new FormControl('');
